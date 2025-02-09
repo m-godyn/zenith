@@ -91,27 +91,14 @@ await initializeWebContext(Astro, {
   <Section class="gap-8" id="jobs">
     <SectionTitle>Work</SectionTitle>
     <VerticalList class="gap-10">
+      <Job entry={getEntry('jobs', 'autorola')} />
+      <Separator />
       <Job entry={getEntry('jobs', 'kontial')} />
       <Separator />
       <Job entry={getEntry('jobs', 'cisco')} />
       <Separator />
       <Job entry={getEntry('jobs', 'capgemini')} />
     </VerticalList>
-    <Separator />
-    <div>
-      <span style="display: flex; align-items: center;">
-        I am in IT industry since 2016. To see my full employment history, certificates and references, visit my&nbsp;
-        <a
-          href="https://www.linkedin.com/in/milgodyn/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="flex size-7 items-center justify-center rounded bg-color-bg-main"
-        >
-          <Icon class="size-3 text-color-icon-dark" name="fa6-brands:linkedin-in" />
-        </a>
-        &nbsp;profile.
-      </span>
-    </div>
   </Section>
   <Section class="gap-8" id="projects">
     <SectionTitle>Projects</SectionTitle>

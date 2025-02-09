@@ -75,6 +75,8 @@ await initializePdfContext(Astro, {
   <Section class="gap-4">
     <SectionTitle>Work</SectionTitle>
     <VerticalList class="gap-6">
+      <Job entry={getEntry('jobs', 'autorola')} />
+      <Separator />
       <Job entry={getEntry('jobs', 'kontial')} />
       <Separator />
       <Job entry={getEntry('jobs', 'cisco')} />
