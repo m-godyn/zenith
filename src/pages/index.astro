@@ -61,6 +61,7 @@ await initializeWebContext(Astro, {
           <Skill withLevel entry={getEntry('skills', 'spring')} />
           <Skill withLevel entry={getEntry('skills', 'hibernate')} />
           <Skill withLevel entry={getEntry('skills', 'python')} />
+          <Skill withLevel entry={getEntry('skills', 'javascript')} />
           <Skill withLevel entry={getEntry('skills', 'oracledb')} />
           <Skill withLevel entry={getEntry('skills', 'postgresql')} />
           <Skill withLevel entry={getEntry('skills', 'aws')} />
@@ -84,6 +85,7 @@ await initializeWebContext(Astro, {
           <Skill entry={getEntry('skills', 'polish')} />
           <Skill entry={getEntry('skills', 'english')} />
           <Skill entry={getEntry('skills', 'german')} />
+          <Skill entry={getEntry('skills', 'danish')} />
         </HorizontalList>
       </Subsection>
     </VerticalList>
@@ -103,6 +105,7 @@ await initializeWebContext(Astro, {
   <Section class="gap-8" id="projects">
     <SectionTitle>Projects</SectionTitle>
     <VerticalList class="gap-10">
+      <Project entry={getEntry('projects', 'contact-manager')} />
       <Project entry={getEntry('projects', 'ascii-art')} />
     </VerticalList>
   </Section>
